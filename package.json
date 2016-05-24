@@ -1,0 +1,25 @@
+{
+  "name": "vue-test",
+  "version": "0.0.1",
+  "description": "Quiz app for holiday destinations",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandraszenti/vue-test.git"
+  },
+  "keywords": [
+    "vue",
+    "quiz",
+    "mvc",
+    "spa"
+  ],
+  "author": "Sandra Szenti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandraszenti/vue-test/issues"
+  },
+  "homepage": "https://github.com/sandraszenti/vue-test"
+}
