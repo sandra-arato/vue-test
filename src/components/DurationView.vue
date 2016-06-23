@@ -29,7 +29,7 @@ export default {
     data ({ to }) {
       // Promise sugar syntax: return an object that contains Promise fields.
       // http://router.vuejs.org/en/pipeline/data.html#promise-sugar
-      document.title = 'Testing DurationView'
+      document.title = 'Nászútválasztó - Mennyi időre menjünk?'
       return
     }
   }
@@ -45,7 +45,7 @@ export default {
   padding-bottom 40px
 .time
   display inline-block
-  width 50%
+  width 45%
   height 250px
   max-width 220px
   vertical-align center

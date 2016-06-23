@@ -40,7 +40,7 @@ export default {
     data ({ to }) {
       // Promise sugar syntax: return an object that contains Promise fields.
       // http://router.vuejs.org/en/pipeline/data.html#promise-sugar
-      document.title = 'Testing TodoView'
+      document.title = 'Nászútválasztó - Mit ne hagyjunk ki?'
       return
     }
   }
@@ -57,9 +57,9 @@ export default {
   .pick
     display inline-block
     box-sizing border-box
-    width 50%
+    width 45%
     max-width 220px
-    vertical-align center
+    vertical-align top
     padding-bottom 30px
     margin-bottom 20px
     &:hover
@@ -67,5 +67,8 @@ export default {
     img
       width 80%
       object-fit cover
-
+    span
+      display block
+      width 95%
+      word-break break-all
 </style>

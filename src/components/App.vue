@@ -30,7 +30,7 @@
 
 html, body
   font-family Metafors
-  font-size 18px
+  font-size 22px
   height 100%
   margin 0
   background-color $bg

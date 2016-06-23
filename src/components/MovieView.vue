@@ -40,7 +40,7 @@ export default {
     data ({ to }) {
       // Promise sugar syntax: return an object that contains Promise fields.
       // http://router.vuejs.org/en/pipeline/data.html#promise-sugar
-      document.title = 'Testing Movie view'
+      document.title = 'Nászútválasztó - Milyen lenne a nászútunk?'
       return
     }
   }
@@ -57,16 +57,15 @@ export default {
   .pick
     display inline-block
     box-sizing border-box
-    width 50%
+    width 45%
     max-width 220px
     padding-top 20px
     margin-bottom 10px
-    vertical-align center
+    vertical-align bottom
     &:hover
       background-color darken($color-heart, 5%)
     img
       margin 0.5rem 0 1rem 0
       width 80%
       object-fit cover
-
 </style>

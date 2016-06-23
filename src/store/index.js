@@ -33,6 +33,7 @@ store.getDestination = () => {
   for (let i of categories) {
     if (typeof i === 'undefined') {
       throw new Error ('Response for ' + i + ' is undefined');
+      return
     }
   }
 
@@ -133,7 +134,7 @@ store.getOthers = (key) => {
       destination = Math.random() >= 0.5 ? 'europe' : 'africa'
     } else {
       const longterm = ['africa', 'europe', 'usa', 'australia', 'asia', 'central']
-      const picker = Math.floor(Math.random() * 7)
+      const picker = Math.floor(Math.random() * longterm.length)
       destination = longterm[picker]
     }
   }
@@ -149,7 +150,7 @@ store.getMsg = (key) => {
     'd': 'Csak győzzünk felfedezni mindent, ha ',
     'e': 'a tenger partja mellett pihenünk ',
     'f': 'az aktív pihenés során a kultúrára is szánunk időt ',
-    'g': 'főként a természetet fedezzük fel ',
+    'g': 'főként a természetet járjuk majd ',
     'h': 'napsütéses tájakon barangolunk együtt ',
     'i': '2 hétig. ',
     'j': '4 hétig. ',
